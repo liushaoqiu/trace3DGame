@@ -1,1 +1,3 @@
+[build]
+command = "esbuild src/index.mjs --format=esm --bundle --minify --loader:.html=text"
 main = "index.html"
